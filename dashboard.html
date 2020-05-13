@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Dashboard</title>
+    <!-- Meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="header">
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+                <!--Logo-->
+                <a class="navbar-brand mx-5" href="#">LOGO</a>
+
+                <!--Toggler small screen-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <!--Left links-->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Rearrange Existing</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Add New</a>
+                        </li>
+                    </ul>
+
+
+                    <!--Right buttons-->
+
+                    <ul class="nav navbar-nav form-inline ">
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Welcome, Name
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">My Account</a>
+                                <a class="dropdown-item" href="#">Credentials Manager</a>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        <li class="notification-button">
+                            <a class="fa fa-bell" href="#" data-badge="3"></a>
+
+                        </li>
+
+                    </ul>
+                </div>
+        </div>
+        </nav>
+        <!--Content-->
+
+        <div class="container-fluid">
+            <div class="row bg-light">
+                <!--Left panel-->
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-primary py-3 bg-white pb-2">
+                    <div class="h4"> Dashboard </div>
+                    <!--Upper menu-->
+                    <div class="my-1">
+                        <div class="btn-group-vertical" role="group" aria-label="Upper group">
+
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-action border-right-0 border-left-0">
+                                    <button type="button" class="btn" data-toggle="collapse"
+                                        data-target="#collapsibleButtonNetwork" aria-expanded="false"
+                                        aria-controls="collapsibleButtonNetwork">
+                                        Network</button>
+                                    <div class="collapse" id="collapsibleButtonNetwork">
+                                        <a class="dropdown-item" href="#">Packages</a>
+                                        <a class="dropdown-item" href="#">Task</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item list-group-action border-right-0 border-left-0">
+                                    <button type="button" class="btn">Policies</button>
+                                </li>
+                                <li class="list-group-item list-group-action border-right-0 border-left-0">
+                                    <button type="button" class="btn">Reports</button>
+                                </li>
+                                <li class="list-group-item list-group-action border-right-0 border-left-0">
+                                    <button type="button" class="btn">Quarantine</button>
+                                </li>
+                                <li class="list-group-item list-group-action border-right-0 border-left-0">
+                                    <button type="button" class="btn" data-toggle="collapse"
+                                        data-target="#collapsibleButtonAccounts" aria-expanded="false"
+                                        aria-controls="collapsibleButtonAccounts">
+                                        Accounts</button>
+                                    <div class="collapse" id="collapsibleButtonAccounts">
+                                        <a class="dropdown-item" href="#">User activity</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item list-group-action border-right-0 border-left-0">
+                                    <button type="button" class="btn">Configuration</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="bottom-buttons">
+                        <!--Down menu-->
+                        <div class="btn-group-vertical align-items-left" role="group" aria-label="Below group">
+                            <ul class="list-group justify-content-start mt-5 pt-5">
+                                <li class="btn text-left">
+                                    <a><i class="fa fa-headphones"> Help & Support</i></a>
+                                </li>
+                                <li class="btn text-left">
+                                    <a><i class="fa fa-question-circle"></i>Help Mode</a>
+                                </li>
+                                <li class="btn text-left">
+                                    <a><i class="fa fa-comment"></i> Feedback</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!--Table content-->
+                <div
+                    class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 text-primary justify-center my-3 bg-light">
+                    <!-- FIRST ROW of tables-->
+                    <div class="row mt-3">
+ 
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
+                                <div class="table-header py-1 bg-white">
+                                    <a class="text-dark"><i class="fa fa-desktop mr-2"></i> Computers - Malware
+                                        activity</a>
+                                    <i class="fa fa-retweet float-right px-1"></i>
+                                    <i class="fa fa-edit float-right px-1"></i>
+                                    <i class="fa fa-times float-right px-1"></i>
+                                </div>
+
+                            <div class="table-content">
+                                <img src="img/tableOne.png" alt="FirstTable" class="img-fluid">
+                            </div>
+                            <div class="btn-group d-flex justify-content-center">
+                                <button type="button" class="btn btn-primary">Create New Scan</button>
+                                <button type="button" class="btn btn-primary">Create New Report</button>
+                                <button type="button" class="btn btn-primary">Scan Files</button>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
+                                <div class="table-header py-1 bg-white">
+                                    <a class="text-dark"><i class="fa fa-desktop mr-2"></i>Computers - Malware
+                                        status</a>
+                                    <i class="fa fa-retweet float-right px-1"></i>
+                                    <i class="fa fa-edit float-right px-1"></i>
+                                    <i class="fa fa-times float-right px1"></i>
+                                </div>
+                            <div class="table-content">
+                                <img src="img/tableTwo.png" alt="SecondTable" class="img-fluid">
+                            </div>
+                            <div class="btn-group d-flex justify-content-center">
+                                <button type="button" class="btn btn-primary">Create New Scan</button>
+                                <button type="button" class="btn btn-primary">Create New Report</button>
+                                <button type="button" class="btn btn-primary">Scan Files</button>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
+                                <div class="table-header py-1 bg-white">
+                                    <a class="text-dark"><i class="fa fa-desktop mr-2"></i>Computers - Malware
+                                        status</a>
+                                    <i class="fa fa-retweet float-right px-1"></i>
+                                    <i class="fa fa-edit float-right px-1"></i>
+                                    <i class="fa fa-times float-right px1"></i>
+                                </div>
+                            <div class="table-content bg-white">
+                                <div
+                                    class="section clearfix-visible-xs clearfix-visible-sm clearfix-visible-md clearfix-visible-lg clearfix-visible-xl">
+                                    <i
+                                        class="fa fa-exclamation-circle large fa-4x d-flex justify-content-center py-3"></i>
+                                    <h5 class="text-dark text-center py-4 mb-4">No relevant info at this time</h5>
+                                </div>
+                            </div>
+                            <div class="table-footer">
+                                <button type="button" class="btn btn-block btn-secondary">
+                                    Create New Report
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!--SECOND ROW of tables-->
+
+                    <div class="row mt-5">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
+                                <div class="table-header py-1 bg-white">
+
+                                    <a class="text-dark"><i class="fa fa-desktop mr-2"></i> Computers - Computer
+                                        Protection
+                                        status</a>
+                                    <i class="fa fa-retweet float-right px-1"></i>
+                                    <i class="fa fa-edit float-right px-1"></i>
+                                    <i class="fa fa-times float-right px-1"></i>
+                                </div>
+
+                            <div class="table-content bg-white">
+                                <img src="img/tableFour.png" alt="FourthTable" class="img-fluid">
+                            </div>
+                            <div class="btn-group d-flex justify-content-center">
+                                <button type="button" class="btn btn-primary">Create New Scan</button>
+                                <button type="button" class="btn btn-primary">Create New Report</button>
+                                <button type="button" class="btn btn-primary">Scan Files</button>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
+                                <div class="table-header py-1 bg-white">
+                                    <a class="text-dark"><i class="fa fa-clone mr-2"></i> Virtual Machines - Malware
+                                        Activity</a>
+                                    <i class="fa fa-retweet float-right px-1"></i>
+                                    <i class="fa fa-edit float-right px-1"></i>
+                                    <i class="fa fa-times float-right px-1"></i>
+                                </div>
+                            
+                            <div class="table-content">
+                                <img src="img/tableFive.png" alt="FifthTable" class="img-fluid">
+                            </div>
+                            <div class="btn-group d-flex justify-content-center">
+                                <button type="button" class="btn btn-primary">Create New Scan</button>
+                                <button type="button" class="btn btn-primary">Create New Report</button>
+                                <button type="button" class="btn btn-primary">Scan Files</button>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
+                                <div class="table-header py-1 bg-white">
+                                    <a class="text-dark"><i class="fa fa-clone mr-2"></i> Virtual Machines - Top 10
+                                        Infected</a>
+                                    <i class="fa fa-retweet float-right px-1"></i>
+                                    <i class="fa fa-edit float-right px-1"></i>
+                                    <i class="fa fa-times float-right px-1"></i>
+                                </div>
+                            
+                            <div class="table-content bg-white">
+                                <div class="d-flex justify-content-center">
+                                    <div class="text-center mt-5">
+                                        <span class="spinner-border mt-4" role="status"></span>
+                                        <span class="text-dark mt-5"></span>Loading...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-group d-flex justify-content-center">
+                                <button type="button" class="btn btn-primary">Create New Scan</button>
+                                <button type="button" class="btn btn-primary">Create New Report</button>
+                                <button type="button" class="btn btn-primary">Scan Files</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Table navigation bottom footer-->
+                    <div class="section mt-3 pt-3 bg-light text-dark">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-8 col-lg-8 col-xl-8">
+
+                                <div class="btn-group d-flex justify-content-left">
+                                    Page 1 of 3
+                                    <i class="fa fa-arrow-left mx-2"></i>
+                                    <i class="fa fa-arrow-right mx-2"></i>
+                                    Scroll to switch table
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                <div class="btn-group d-flex float-right">
+                                    <button type="button" class="btn">Drag table</button>
+                                    <button type="button" class="btn text-blue">See all notifications</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

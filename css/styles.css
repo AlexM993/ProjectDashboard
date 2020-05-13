@@ -1,0 +1,84 @@
+ .fa-bell{
+    color: white;
+}
+
+
+.btn-active{
+    background-color: gray;
+}
+
+/* background for table and footer */
+.bg-light{
+    color: #eaeaea;
+}
+
+
+
+/* buttons from panels */
+
+.fa-desktop{
+    color:#008cc7;
+}
+
+
+.fa-retweet{
+    background-color: white;
+    color: #008cc7;
+    border: none;
+}
+
+.fa-retweet:hover{
+    background-color: #008cc7;
+    color:white;
+}
+
+
+.fa-edit{
+    background-color: white;
+    color: #008cc7;
+    border: none;
+}
+
+.fa-edit:hover{
+    background-color: #008cc7;
+    color:white;
+}
+
+
+.fa-times{
+    background-color: white;
+    color: #008cc7;
+    border: none;
+}
+
+.fa-times:hover{
+    background-color: #008cc7;
+    color:white;
+} 
+
+.fa-clone{
+    color: #008cc7;
+}
+/*Buttons from table footers */
+.table-header{
+    border-bottom: 2px solid-black !important;
+}
+
+.btn-primary:hover{
+    background-color: #008cc7;
+    border: none;
+}
+
+.table-content{
+    height: 200px;
+}
+
+
+
+/* footer from the main table view 
+    right side buttons
+*/
+
+.fa-arrow{
+    background: none;
+}
